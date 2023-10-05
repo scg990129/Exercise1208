@@ -32,16 +32,16 @@ void arrayListType::remove(int item) {
 }
 
 void arrayListType::insert(int item) {
-    for(int i = 0; i < length; i++){
+    for(int i = 0; i < this->length; i++){
         if(list[i] == item){
             return;
         }else{
             if(item < this->list[i]){
-                for(int j = length; j > i; j--){
+                for(int j = this->length; j > i; j--){
                     list[j] = list[j - 1];
                 }
                 list[i] = item;
-                length++;
+                this->length++;
                 return;
             }
         }

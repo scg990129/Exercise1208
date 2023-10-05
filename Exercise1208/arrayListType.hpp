@@ -13,10 +13,10 @@
 #include "unorderedArrayListType.hpp"
 
 class arrayListType : public unorderedArrayListType {
-private:
-    int *list; // Pointer to the dynamic array
-    int maxSize; // Maximum size of the list
-    int length; // Current length of the list
+//private:
+//    int *list; // Pointer to the dynamic array
+//    int maxSize; // Maximum size of the list
+//    int length; // Current length of the list
 public:
     arrayListType(int size = 100); // Constructor with default size
     ~arrayListType(); // Destructor

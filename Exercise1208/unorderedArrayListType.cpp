@@ -17,7 +17,7 @@ unorderedArrayListType::unorderedArrayListType(int size) {
 }
 
 unorderedArrayListType::~unorderedArrayListType() {
-    delete[] list;
+    // delete[] list;
 }
 
 void unorderedArrayListType::insert(int item) {
